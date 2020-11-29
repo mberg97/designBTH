@@ -1,0 +1,149 @@
+$base-color: #c6538c; // light pink
+@import '../../shared/scss/base';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+$white-color: #eee;
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.me {
+    max-width: 50%;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+    background-color: #fffacd;
+    font-size: 100%;
+}
+
+p {
+    font-size: 1.25em;
+    margin-bottom: 1.75rem;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2.8em;
+    margin-bottom: 3.5rem;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: $white-color;
+    width: 960px;
+    line-height: 1.4;
+    word-spacing: 0.1em;
+
+}
+
+img {
+    display: block;
+}
+
+.container {
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+@media (max-width: 900px) {
+    body {
+        width: auto;
+    }
+
+    .container p {
+        max-width: 80%;
+    }
+
+}
+
+
+.site-header {
+    flex: 0 0 auto;
+    background-color: #228b22;
+    color: #2b2e30;
+    padding: 0 2em;
+}
+
+.site-header a,
+.site-header a:visited {
+    color: #2b2e30;
+}
+
+/* Main */
+
+.main {
+    flex: 1 0 auto;
+    padding: 2em;
+}
+
+/* Footer */
+
+.site-footer {
+    flex: 0 0 auto;
+    background: #228b22;
+    color: #2b2e30;
+    padding: 2em;
+}
+
+.site-footer a {
+    color: #f0f0f0;
+}
+
+
+.me {
+    max-width: 100%;
+}
+
+
+.social {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.social a {
+    padding-left: 0.4em;
+}
+
+.flash-img {
+    width: 100%;
+}

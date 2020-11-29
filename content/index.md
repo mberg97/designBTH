@@ -6,6 +6,7 @@ Description: This is our index page.
 Home page
 ==========================
 
+
 Hej! Jag heter Mattias Berg och bor i Malmö. Jag är född den 4 oktober 1997. Innan har jag haft 2 undulater men just nu har jag tyvärr inga husdjur längre eftersom jag blir ledsen under en så lång tid efter... Annars hade jag kunnat tänka mig att ha flera olika djur såsom katter, hundar eller fåglar igen.
 
 Mina favoritfilmer är utan tvekan sagen om ringen filmerna (har dock ingen favorit mellan de 3 filmerna).
@@ -22,4 +23,4 @@ Annars gillar jag att resa med min familj till ganska ovanliga resemål (inga st
 
 Jag har sedan innan haft lite programmering erfarenhet i olika språk och har bestämt mig nu för att försöka få examen själv genom kurser och inte gå ett specifikt program eftersom jag redan har läst flera kurser.
 
-![Mattias](%assets_url%/img/mattias.jpg) {.me}
+![mattias](%assets_url%/img/mattias.png) {.me}
