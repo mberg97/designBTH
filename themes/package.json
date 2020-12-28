@@ -4,10 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "stylelint \"**/*.scss\"",
-    "style": "sass mattias/scss/style.scss mattias/css/style.css --no-source-map",
-    "style-min": "sass mattias/scss/style.scss mattias/css/style.min.css --no-source-map --style compressed"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "stylelint \"**/*.scss\"",
+      "watch": "sass mattias/scss/style.scss:mattias/css/style.css mattias/scss/style-dark.scss:mattias/css/style-dark.css --no-source-map --watch",
+      "watch-min": "sass mattias/scss/style.scss:mattias/css/style.min.css mattias/scss/style-dark.scss:mattias/css/style-dark.min.css --no-source-map --watch --style compressed",
+      "style": "npm run style-light && npm run style-dark",
+      "style-min": "npm run style-light-min && npm run style-dark-min",
+      "style-dark": "sass mattias/scss/style-dark.scss mattias/css/style-dark.css --no-source-map",
+      "style-dark-min": "sass mattias/scss/style-dark.scss mattias/css/style-dark.min.css --no-source-map --style compressed",
+      "style-light": "sass mattias/scss/style.scss mattias/css/style.css --no-source-map",
+      "style-light-min": "sass mattias/scss/style.scss mattias/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

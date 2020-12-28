@@ -11,4 +11,10 @@ Social:
     - title: Link till blizzard
       url: https://www.blizzard.com/en-us/
       icon: fab fa-battle-net
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

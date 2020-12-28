@@ -1,7 +1,7 @@
 .main-kmom {
     display: grid;
     grid-template-columns: 200px auto;
-    grid-template-rows: 200px 600px 200px;
+    grid-template-rows: 200px auto 200px;
 }
 
 .sidebar {
@@ -34,6 +34,11 @@
 
 .main-kmom h1 {
     text-align: center;
+}
+
+.store-img {
+    width: 70%;
+    height: 70%;
 }
 
 @media (max-width: 767px) {

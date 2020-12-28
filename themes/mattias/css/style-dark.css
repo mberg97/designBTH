@@ -6585,6 +6585,7 @@ h6 {
 }
 
 .me {
+  filter: brightness(0.8) contrast(1.2);
   max-width: 50%;
 }
 
@@ -6602,8 +6603,9 @@ body {
 html {
   display: table;
   margin: auto;
-  background-color: #7eedc0;
+  background-color: #403640;
   font-size: 100%;
+  color: #a5999e;
 }
 
 p {
@@ -6620,7 +6622,7 @@ h1 {
 body {
   display: table-cell;
   vertical-align: middle;
-  background-color: #b9f095;
+  background-color: #eee;
   width: 960px;
   line-height: 1.4;
   word-spacing: 0.1em;
@@ -6653,7 +6655,7 @@ img {
 }
 .site-header {
   flex: 0 0 auto;
-  background-color: #82e08f;
+  background-color: #4a453f;
   color: #2b2e30;
   padding: 0 2em;
 }
@@ -6672,7 +6674,7 @@ img {
 /* Footer */
 .site-footer {
   flex: 0 0 auto;
-  background: #82e08f;
+  background: #4a453f;
   color: #2b2e30;
   padding: 2em;
 }
@@ -6695,6 +6697,10 @@ img {
 }
 
 .flash-img {
+  filter: brightness(0.8) contrast(1.2);
   width: 100%;
-  filter: hue-rotate(210deg);
+}
+
+.main {
+  background-color: #121212;
 }
