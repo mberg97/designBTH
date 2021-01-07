@@ -28,6 +28,7 @@ Alla resultaten i spreadsheeten har mäts 3 gånger och räknat ut medelvärdet.
 https://docs.google.com/spreadsheets/d/1AODHT41-n8LqcPtDPHxEUZc0QzSbCy1i_LcgrSeN-sk/edit#gid=0
 
 amazon.se
+![amazon](%assets_url%/img/amazon.png) {.store-img}
 
 Fältdata
 First Contentful Paint (FCP) - 1,1 s
@@ -47,6 +48,7 @@ Cumulative Layout Shift - 0,003
 De viktigaste sakerna att förbättra för Amazon på diagnostik (finns inga "möjligheter" för Amazon) är att text förblir synlig medan webbteckensnitten läses in, göra så att passiva lyssnare kan användas för att förbättra rullningsprestanda, undvika ett så stort DOM-träd och slutligen att skicka statistiska tillgångar med en effektiv cachelagringspolicy.
 
 elgiganten.se
+![elgiganten](%assets_url%/img/elgiganten.png) {.store-img}
 
 Fältdata
 First Contentful Paint (FCP) - 0,8 s
@@ -65,6 +67,7 @@ Cumulative Layout Shift - 0,013
 För Elgiganten finns det mer att förbättra än amazon såsom "Möjligheter": Att läsa in viktiga resurser i förväg(0,36s) samt att ta bort resurser som blockerar renderingen(fel). För diagnostik finns det några kritiska saker såsom att göra så att passiva lyssnare kan användas för att förbättra rullningsprestanda, undvika ett så stort DOM-träd och slutligen att skicka statistiska tillgångar med en effektiv cachelagringspolicy.
 
 mediamarkt.se
+![mediamarkt](%assets_url%/img/mediamarkt.png) {.store-img}
 
 Fältdata
 First Contentful Paint (FCP) - 1,3 s
