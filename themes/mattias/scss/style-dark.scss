@@ -8,7 +8,15 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 @import '../../mattias/scss/report';
 @import '../../mattias/scss/kmom';
+@import 'gallery';
 $white-color: #eee;
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
 
 * {
     font-family: 'Open Sans', sans-serif;
@@ -155,4 +163,22 @@ img {
 
 .main {
     background-color: #121212;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

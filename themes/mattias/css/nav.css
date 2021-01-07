@@ -33,7 +33,7 @@
 #nav ul li {
     display: inline-block;
     margin-left: 1em;
-    padding: 0;
+    padding-bottom: 2em;
     font-weight: bold;
 }
 

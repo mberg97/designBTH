@@ -13,11 +13,11 @@ Analysis page
 </div>
 
 <div class="kmom-box">
-    <a href="report/kmom02"><h2>Kmom02</h2></a>
-    <p>Här arbetade vi med mycket med SASS</p>
+    <a href="analysis/02_load"><h2>Kmom05</h2></a>
+    <p>Analys för kmom05</p>
 </div>
 
 <div class="kmom-box">
-    <a href="report/kmom03"><h2>Kmom03</h2></a>
-    <p>I detta kursmomentet låg det fokus på grid</p>
+    <a href="analysis/03_design_principles"><h2>Kmom06</h2></a>
+    <p>Analys för kmom06</p>
 </div>
