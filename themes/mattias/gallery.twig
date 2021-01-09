@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -36,7 +36,7 @@
 
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <header class="site-header">
-        <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+        <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
             <span class="sr-only">Toggle Menu</span>
         </a>
@@ -50,7 +50,7 @@
             </ul>
         </div>
         <div class="flash-region">
-            <img class="flash-img" src="https://wallpaperaccess.com/full/1282257.jpg">
+            <img class="flash-img" src="{{ base_url }}/image/flashimg.jpg" alt="flash-Image">
         </div>
     </header>
     <div class="main" id="main" role="main">

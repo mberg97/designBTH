@@ -163,7 +163,8 @@ Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incid
 <fieldset>
     <legend>Legend</legend>
     <label>Label</label>
-    <input type="checkbox"/>
+    <label for="checkbox1">
+    <input type="checkbox" name="checkbox1"/>
     <input type="checkbox" checked="checked"/>
     <input type="radio"/>
     <input type="radio" checked="checked"/><br/>

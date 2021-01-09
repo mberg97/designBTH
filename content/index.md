@@ -23,4 +23,4 @@ Annars gillar jag att resa med min familj till ganska ovanliga resemål (inga st
 
 Jag har sedan innan haft lite programmering erfarenhet i olika språk och har bestämt mig nu för att försöka få examen själv genom kurser och inte gå ett specifikt program eftersom jag redan har läst flera kurser.
 
-![mattias](%assets_url%/img/mattias.png) {.me}
+![mattias](%assets_url%/img/mattias.jpg) {.me}
